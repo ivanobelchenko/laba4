@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Лабораторная работа №4</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#myworks">My works</a></li>
+          <li><a href="#whatido">What I do</a></li>
+          <li><a href="#aboutme">About me</a></li>
+          <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+    <div class="kartinki"><a name="home"></a>
+        <div class="big">
+            <img src="images/1.png" alt="1">
+            <img src="images/2.png" class="last" alt="2">
+        </div>
+        <div class="small">
+            <img src="images/3.png" alt="3">
+            <img src="images/4.png" alt="4">
+            <img src="images/5.png" alt="5">
+            <img src="images/6.png" class="last" alt="6">
+        </div>
+    </div>
+    <div class="expand"><a name="whatido"></a><span>Expand</span></div>
+    <div class="whatido">
+        <h1>What I do</h1>
+        <div class="whatidotext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam esse officia similique, vel ipsam corporis consequuntur. Unde suscipit reiciendis dignissimos adipisci repudiandae. Similique, voluptas! Delectus eum labore quaerat fuga maxime!</div>
+    </div>
+    <div class="myworks"><a name="myworks"></a>
+        <div class="myworkscomp">
+            <img src="images/7.png" alt="7">
+            <h3>UX/UI</h3>
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam esse officia similique, vel ipsam corporis consequuntur. Unde suscipit reiciendis dignissimos adipisci repudiandae. Similique, voluptas! Delectus eum labore quaerat fuga maxime!</div>
+        </div>
+        <table class="workstable">
+            <tr>
+                <td class="square"></td>
+                <td class="pole">Key visual</td>
+            </tr>
+            <tr>
+                <td class="square"></td>
+                <td class="pole">UX/UI</td>
+            </tr>
+            <tr>
+                <td class="square"></td>
+                <td class="pole">Brand</td>
+            </tr>
+            <tr>
+                <td class="square"></td>
+                <td class="pole">Package design</td>
+            </tr>
+        </table>
+    </div>
+    <div class="aboutme"><a name="aboutme"></a>
+        <table class="aboutmetable">
+            <tr>
+                <td rowspan="2"><img src="images/8.png" alt="8"></td>
+                <td class="aboutmehead"><h1>About me</h1></td>
+            </tr>
+            <tr>
+                <td class="aboutmetext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam esse officia similique, vel ipsam corporis consequuntur. Unde suscipit reiciendis dignissimos adipisci repudiandae. Similique, voluptas! Delectus eum labore quaerat fuga maxime! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam esse officia similique, vel ipsam corporis consequuntur. Unde suscipit reiciendis dignissimos adipisci repudiandae. Similique, voluptas! Delectus eum labore quaerat fuga maxime! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam esse officia similique, vel ipsam corporis consequuntur. Unde suscipit reiciendis dignissimos adipisci repudiandae. Similique, voluptas! Delectus eum labore quaerat fuga maxime! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam esse officia similique, vel ipsam corporis consequuntur. Unde suscipit reiciendis dignissimos adipisci repudiandae. Similique, voluptas! Delectus eum labore quaerat fuga maxime!</td>
+            </tr>
+        </table>
+    </div>
+    <div class="contact"><a name="contact"></a>
+        <div class="info">
+            <h1>Contact</h1>
+            <div class="address">
+                <h4>Address:</h4>
+                9114 Bridge Street, <br>Hillsboro, OR 97124
+            </div>
+            <div>
+                <div class="phone">
+                    <h4>Phone:</h4>
+                    +48 202-555-0114
+                </div>
+                <div class="email">
+                    <h4>Email:</h4>
+                    Contact@yoursite.com
+                </div>
+            </div>
+        </div>
+        <form class="contactform">
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+            <label for="email">Email:</label>
+            <input type="text" id="email">
+            <label for="message">Message:</label>
+            <textarea id="message"></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+    <div class="copyright">
+        Copyright 2020 © by Damian Lisiewski
+    </div>
+</body>
+</html>
